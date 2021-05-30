@@ -2198,8 +2198,8 @@ progress {
   opacity: 1;
 }
 .form-control::placeholder {
-  color: #6c757d;
-  opacity: 1;
+    color: #FFB442;
+    opacity: 10;
 }
 .form-control:disabled, .form-control[readonly] {
   background-color: #e9ecef;
@@ -2930,6 +2930,7 @@ textarea.form-control-lg {
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     font-family: Noto Sans;
+    border-radius: 25px;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
